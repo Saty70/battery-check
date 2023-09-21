@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Battery Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="box">
+    <h1>Battery Checker 🔋</h1>
+    <p>Current Battery Percentage: <span id="batteryPercentage">--</span>%</p>
+    <p>Charging Status : <span id="batteryStatus">--</span></p>
+    <button id="stopButton">Stop ⏰</button>
+    <audio id="audio" src="alarm.wav"></audio>
+    <h2>Juice left</h2>
+
+    <div class="bclass">
+      <div class="bbody">
+        <div class="battery">
+          <div class="battery-level">
+            <p><span id="batteryPercentage2">--</span>%</p>
+          </div>
+        </div>
+      </div>
+      <div class="bhead"><div class="headborder"></div></div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Include the external JavaScript file -->
+  <script src="app.js"></script>
+</body>
+
+</html>

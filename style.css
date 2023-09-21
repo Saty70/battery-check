@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: darkslategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin-top: 1rem;
+    border: 0;
+    outline: 0;
+    width: 97%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: solid red;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: ease-in-out 0.3s;
+    color:ghostwhite;
+}
+
+button:hover {
+    background-color: rgba(119, 136, 153, 0.434);
+    color: red;
+    transition: ease-in-out 0.3s;
+}
+
+h2{
+    margin: 2rem 0rem 1rem 0rem;
+    width: 100%;
+    text-align: left;
+}
+
+.bclass{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bbody{
+    width:100%;
+}
+
+.bhead{
+    height:15px;
+    width:10px;
+    border: solid black;
+    border-left: 0;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.headborder{
+    height: 100%;
+    width: 100%;
+    border: solid 2px;
+}
+
+.battery {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    position: relative;
+    border: solid black;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.battery-level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid transparent;
+    outline: 0;
+    border-radius: 10px 0px 0px 10px;
+    height: 100%;
+    background-color: green; /* Default color for a full battery */
+}
+
+.battery-level p{
+    padding: 2px;
+    font-size: 0.7rem;
+}
